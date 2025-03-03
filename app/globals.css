@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 @plugin "tailwindcss-animate";
+@plugin "daisyui";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -125,5 +126,10 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+  @media (max-width: 640px) {  /* Target screens smaller than 640px (Mobile) */
+    .mt-mobile {
+      margin-top: 30px; /* Adjust as needed */
+    }
   }
 }
