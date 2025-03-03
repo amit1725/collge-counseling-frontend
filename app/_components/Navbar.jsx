@@ -17,10 +17,10 @@ export default function Navbar() {
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-6 text-gray-700">
-          <a href="#" className="hover:text-black">Home Page</a>
+          <a href="/" className="hover:text-black">Home Page</a>
           <a href="#" className="hover:text-black">About Us</a>
           <a href="#" className="hover:text-black">Consultancy Services</a>
-          <a href="#" className="hover:text-black">Explore Colleges</a>
+          <a href="/ExploreColleges" className="hover:text-black">Explore Colleges</a>
         </div>
 
         {/* Sign Up Button */}
